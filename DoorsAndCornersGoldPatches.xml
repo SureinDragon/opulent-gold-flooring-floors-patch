@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>ReBuild: Doors and Corners</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+		<operations>
+
+		<li Class="PatchOperationReplace">
+			<xpath>*/TerrainDef[defName= "RB_GoldGrateTile"]/color</xpath>
+			<value>
+				<color>(195,163,58)</color>
+			</value>
+		</li>
+
+		<li Class="PatchOperationReplace">
+			<xpath>*/TerrainDef[defName= "RB_GoldStuddedTile"]/color</xpath>
+			<value>
+				<color>(195,163,58)</color>
+			</value>
+		</li>
+
+		</operations>
+		</match>
+	</Operation>	
+
+</Patch>
